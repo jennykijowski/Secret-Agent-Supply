@@ -1,0 +1,55 @@
+html {
+  font-family: Helvetica;
+  font-size: 18px;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.site-title {
+  background-color: black;
+  display: block;
+  color: white;
+}
+
+.site-title .container {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.site-title img {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+}
+
+.site-title h4 {
+  margin: 0.66rem auto;
+  display: flex;
+  flex-grow: 1;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+}
+
+header {
+  background-image: url("/Users/jennykijowski/Desktop/Professional_Development/CodeAcademy/SecretAgentSupply/resources/images/moto.jpeg");
+}
+
+.featured {
+  color: white;
+}
+
+nav {
+  background-color: red;
+  color: white;
+  font-size: .80rem;
+}
