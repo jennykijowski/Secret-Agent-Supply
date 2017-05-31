@@ -42,10 +42,31 @@ h1 {
 
 header {
   background-image: url("/Users/jennykijowski/Desktop/Professional_Development/CodeAcademy/SecretAgentSupply/resources/images/moto.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  height: 25rem;
 }
 
 .featured {
-  color: white;
+  background-color: black;
+  width: 20rem;
+  display: block;
+  position: relative;
+  top: 9rem;
+}
+
+.featured h4 {
+  font-weight: bold;
+  padding-top: 2rem;
+  padding-bottom: 0.25rem;
+  padding-left: 3rem;
+}
+
+.featured h1 {
+  padding-left: 3rem;
+  padding-bottom: 2rem;
+  font-weight: bold;
 }
 
 nav {
