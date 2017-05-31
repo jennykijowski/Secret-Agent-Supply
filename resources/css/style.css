@@ -180,6 +180,7 @@ footer {
   }
   .featured {
     top: 10rem;
+    width: 100%;
   }
   .featured h4 {
     padding-top: 1rem;
