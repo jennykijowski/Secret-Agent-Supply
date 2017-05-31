@@ -82,10 +82,13 @@ nav ul {
   padding: 0.75rem 0;
 }
 
+.mobile-nav {
+  justify-content: center;
+}
+
 .product-grid {
   width: 100%;
   display: flex;
-  flex-grow: 1;
   justify-content: space-between;
   margin-top: 3rem;
 }
@@ -140,4 +143,40 @@ nav ul {
 .info-box p {
   padding-top: .5rem;
   padding-bottom: 4rem;
+}
+
+footer {
+  background: black;
+  color: white;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+footer span {
+  text-align: left;
+}
+
+@media only screen and (min-width: 1024px){
+  .mobile-nav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px){
+  .desktop {
+    display: none;
+  }
+  .glasses {
+    display: none;
+  }
+  .product-grid {
+    justify-content: space-around;
+  }
+  .product-box {
+    width: 47%;
+  }
+}
+
+@media only screen and (max-width: 470px){
+  
 }
